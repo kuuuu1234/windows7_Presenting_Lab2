@@ -115,7 +115,7 @@ Expected Result:
 - Confirmed communication between attacker and target
 - Verified network routing
 
-**Screenshot:** `_ping_test.png`
+![Ping_Test](_ping_test.png)
 
 ---
 
@@ -144,7 +144,7 @@ The payload is configured to initiate a reverse connection back to the attacker'
 | LPORT | Listening Port |
 | Format | Windows EXE |
 
-**Screenshot:** `payload.png`
+![Payload](payload.png)
 
 ---
 
@@ -162,7 +162,7 @@ python3 -m http.server 80
 - No additional software required
 - Accessible from the target machine
 
-**Screenshot:** `python_server.png`
+![Python_Server](python_server.png)
 
 ---
 
@@ -182,7 +182,7 @@ http://172.16.195.128
 3. Download the payload.
 4. Execute the payload.
 
-**Screenshot:** `windows_shell.png`
+![IE_Download](_windows_shell.png)
 
 ---
 
@@ -206,7 +206,7 @@ exploit
 
 A successful Meterpreter session is established between the target and attacker systems.
 
-**Screenshot:** `session_open.png`
+![Session_Open](session_open.png)
 
 ---
 
@@ -246,8 +246,8 @@ dir
 
 **Screenshots:**
 
-- `sysinfo.png`
-- `getuid.png`
+![System_Info](sysinfo.png)
+![get_uid](getuid.png)
 
 ---
 
